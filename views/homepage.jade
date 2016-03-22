@@ -1,7 +1,13 @@
 extends ./layout
 
-
 block body
-  // Default home page
-
-  h1= 'Hello World'
+  .homepage
+    .header
+      .logo
+        div
+          | Logo
+      .primary-menu
+        ul
+          - list = ["Reach", "Insights", "Creative", "Advertising"]
+            each item in list
+              li.primary-link= item
