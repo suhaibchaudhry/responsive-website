@@ -1,0 +1,14 @@
+extends ../layout
+
+block body
+  .header
+    .logo
+      div
+        | Logo
+    .primary-menu
+      ul
+        - list = ["Consulting", "Technology", "Creative", "Advertising", "Data Insights"]
+          each item in list
+            li.primary-link= item
+  .content
+    img(src="images/front_egg.svg")
