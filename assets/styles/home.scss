@@ -1,18 +1,73 @@
-.logo {
-  float: left;
+.red-font {
+  color: red;
 }
 
-.primary-menu {
-  float: right;
+.gray-font {
+  color: #c1c1c1;
+}
 
-  ul {
-    list-style-type: none;
-    margin: 0;
+.header, .content, .footer {
+  padding: 20px;
+}
 
-    .primary-link {
-        float: left;
-        display: block;
-        margin: 0 10px;
+html {
+  height: 100vh;
+}
+
+.content {
+  img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .slogan {
+    width: 685px;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 30px;
+
+    .gray-font, .red-font {
+      float: left;
+    }
+
+    .gray-font:first-child {
+      padding-right: 20px;
+    }
+
+    .red-font {
+      padding-right: 20px;
+    }
+  }
+}
+
+.header {
+  height: 70px;
+
+  .logo {
+    float: left;
+    .gray-font, .red-font {
+      float: left;
+      text-transform: uppercase;
+      letter-spacing: 20px;
+      font-size: 60px;
+    }
+  }
+  .primary-menu {
+    float: right;
+    line-height: 70px;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+
+      .primary-link {
+          float: left;
+          display: block;
+          margin: 0 10px;
+          color: #c1c1c1;
+      }
     }
   }
 }
@@ -21,4 +76,27 @@
   background: #3a3a3a;
   color: #fff;
   text-transform: uppercase;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  
+  .secondary-menu {
+    float: right;
+    line-height: 70px;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+
+      .primary-link {
+          float: left;
+          display: block;
+          margin: 0 10px;
+          color: #c1c1c1;
+      }
+    }
+  }
 }

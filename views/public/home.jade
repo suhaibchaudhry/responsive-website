@@ -3,8 +3,12 @@ extends ../layout
 block body
   .header
     .logo
-      div
-        | Logo
+      div.red-font
+        | UI
+      div.gray-font
+        | To
+      div.red-font
+        | UX
     .primary-menu
       ul
         - list = ["Consulting", "Technology", "Creative", "Advertising", "Data Insights"]
@@ -12,3 +16,17 @@ block body
             li.primary-link= item
   .content
     img(src="images/front_egg.svg")
+    .slogan
+      .gray-font
+        | Data
+      .red-font
+        | driven
+      .gray-font
+        | media agency
+
+  .footer
+    .secondary-menu
+      ul
+        - list = ["About", "Contact"]
+          each item in list
+            li.primary-link= item
