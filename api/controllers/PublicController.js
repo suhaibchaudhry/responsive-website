@@ -8,8 +8,12 @@
 module.exports = {
 	home: (req, res) => {
 		res.view(null, {
-        		bodyClass: 'homepage'
-   		});
-        }
+        bodyClass: 'homepage'
+   	});
+  },
+  contact: (req, res) => {
+    res.view(null, {
+        bodyClass: 'contact-us'
+    });
+  }
 };
-

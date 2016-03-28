@@ -15,29 +15,46 @@ html {
 }
 
 .content {
-  img {
-    width: 150px;
-    display: block;
-    margin: 0 auto;
-  }
-  
-  .slogan {
-    width: 685px;
-    margin: 0 auto;
-    text-align: center;
-    letter-spacing: 10px;
-    font-size: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 
-    .gray-font, .red-font {
-      float: left;
-    }
+  .inner-content {
+    height: 100%;
+    display: table;
+    width: 100%;
 
-    .gray-font:first-child {
-      padding-right: 20px;
-    }
+    .content-information {
+      vertical-align: middle;
+      display: table-cell;
 
-    .red-font {
-      padding-right: 20px;
+      img {
+        width: 150px;
+        display: block;
+        margin: 0 auto;
+      }
+      
+      .slogan {
+        width: 685px;
+        margin: 0 auto;
+        text-align: center;
+        letter-spacing: 10px;
+        font-size: 30px;
+
+        .gray-font, .red-font {
+          float: left;
+        }
+
+        .gray-font:first-child {
+          padding-right: 20px;
+        }
+
+        .red-font {
+          padding-right: 20px;
+        }
+      }
     }
   }
 }

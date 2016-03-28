@@ -35,6 +35,10 @@ module.exports.routes = {
   '/': {
     controller: 'PublicController',
     action: 'home'
+  },
+  '/contact': {
+    controller: 'PublicController',
+    action: 'contact'
   }
 
   /***************************************************************************
