@@ -1,0 +1,21 @@
+{
+  "name": "uitoux-responsive",
+  "description": "UITOUX Frontend",
+  "main": "app.js",
+  "authors": [
+    "uitoux"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "amd"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
