@@ -20,5 +20,10 @@ module.exports = {
     res.view(null, {
         bodyClass: 'creative'
     });
+  },
+  insights: (req, res) => {
+    res.view(null, {
+        bodyClass: 'insights'
+    });
   }
 };
