@@ -11,6 +11,7 @@
     ul {
       li {
         text-transform: uppercase;
+        color: #000 !important;
       }
     }
   }
@@ -41,26 +42,133 @@
   .contact-information{
     width: 100%;
 
-    .left-sidebar {
-      float: left;
+    .left-sidebar, .right-sidebar {
       width: 50%;
       text-align: left;
+      box-sizing: border-box;
+    }
+
+    .left-sidebar {
+      float: left;
 
       ul {
         font-size: 35px;
         letter-spacing: 10px;
+
+        li {
+          padding: 15px 0;
+        }
       }
     }
 
     .right-sidebar {
+      border-left: 1px solid #000;
+      padding: 0 50px;
       float: right;
-      width: 50%;
-      text-align: left;
+      font-size: 25px;
+
+      label {
+        vertical-align: top;
+        display: block;
+      }
+
+      input {
+        vertical-align: baseline;
+        display: inline-block;
+        background: #e6e6e6;
+        border: 1px solid #bbb;
+      }
+
+      .name, .phone, .email, .message {
+        box-sizing: border-box;
+      }
+
+      .name, .phone {
+        width: 50%;
+      }
+
+      .name {
+        float: left;
+        padding-right: 10px;
+
+        input {
+          width: 100%;
+          padding: 10px 0;
+          margin: 0;
+        }
+      }
+
+      .phone {
+        float: right;
+        padding-left: 10px;
+
+        input {
+          width: 100%;
+          padding: 10px 0;
+          margin: 0;
+        }
+      }
+
+      .email, .message {
+        width: 100%;
+
+        input {
+          width: 100%;
+          padding: 10px 0;
+        }
+
+        textarea {
+          width: 100%;
+          padding: 10px 0;
+          background: #e6e6e6;
+          border: 1px solid #bbb;
+        }
+      }
+
+      input.submit-button {
+        width: 100%;
+        padding: 20px 0;
+        background: #B90000;
+        border: none;
+        color: #fff;
+        font-size: 50px;
+      }
     }
   }
 
   .map {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 500px;
+
+    #map {
+      width: 100%;
+      height: 500px;
+    }
+  }
+}
+
+.leaflet-control-container {
+  display: none;
+}
+
+.footer {
+  border-top: 1px solid #000;
+  position: initial !important;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 50px;
+
+  .copyright-info {
+    float: left;
+  }
+
+  .secondary-menu {
+    line-height: normal !important;
+    
+    ul {
+      li {
+        color: #000 !important;
+      }
+    }
   }
 }
