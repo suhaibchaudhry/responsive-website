@@ -15,5 +15,10 @@ module.exports = {
     res.view(null, {
         bodyClass: 'contact-us'
     });
+  },
+  creative: (req, res) => {
+    res.view(null, {
+        bodyClass: 'creative'
+    });
   }
 };

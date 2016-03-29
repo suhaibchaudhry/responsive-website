@@ -39,6 +39,10 @@ module.exports.routes = {
   '/contact': {
     controller: 'PublicController',
     action: 'contact'
+  },
+  '/creative': {
+    controller: 'PublicController',
+    action: 'creative'
   }
 
   /***************************************************************************
