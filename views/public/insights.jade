@@ -2,7 +2,7 @@ extends ../layout
 
 block body
   .header
-    .logo
+    a(href="/").logo
       div.red-font
         | UI
       div.gray-font
@@ -11,9 +11,9 @@ block body
         | UX
     .primary-menu
       ul
-        - list = ["Consulting", "Technology", "Creative", "Advertising", "Data Insights"]
+        - list = ["<a href='/consulting'>Consulting</a>", "<a href='/technology'>Technology</a>", "<a href='/creative'>Creative</a>", "<a href='/advertising'>Advertising</a>", "<a href='/insights'>Data Insights</a>"]
           each item in list
-            li.primary-link= item
+            li.primary-link!= item
 
   .content
     h1.page-title

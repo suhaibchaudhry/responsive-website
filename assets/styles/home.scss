@@ -1,120 +1,122 @@
-.red-font {
-  color: red;
-}
-
-.gray-font {
-  color: #c1c1c1;
-}
-
-.header, .content, .footer {
-  padding: 20px;
-}
-
-html {
-  height: 100vh;
-}
-
-.content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-
-  .inner-content {
-    height: 100%;
-    display: table;
-    width: 100%;
-
-    .content-information {
-      vertical-align: middle;
-      display: table-cell;
-
-      img {
-        width: 150px;
-        display: block;
-        margin: 0 auto;
-      }
-      
-      .slogan {
-        width: 685px;
-        margin: 0 auto;
-        text-align: center;
-        letter-spacing: 10px;
-        font-size: 30px;
-
-        .gray-font, .red-font {
-          float: left;
-        }
-
-        .gray-font:first-child {
-          padding-right: 20px;
-        }
-
-        .red-font {
-          padding-right: 20px;
-        }
-      }
-    }
-  }
-}
-
-.header {
-  height: 70px;
-
-  .logo {
-    float: left;
-    .gray-font, .red-font {
-      float: left;
-      text-transform: uppercase;
-      letter-spacing: 20px;
-      font-size: 60px;
-    }
-  }
-  .primary-menu {
-    float: right;
-    line-height: 70px;
-
-    ul {
-      list-style-type: none;
-      margin: 0;
-
-      .primary-link {
-          float: left;
-          display: block;
-          margin: 0 10px;
-          color: #c1c1c1;
-      }
-    }
-  }
-}
-
 .homepage {
   background: #3a3a3a;
   color: #fff;
   text-transform: uppercase;
   height: 100vh;
   margin: 0;
-}
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  
-  .secondary-menu {
-    float: right;
-    line-height: 70px;
+  .red-font {
+    color: red;
+  }
 
-    ul {
-      list-style-type: none;
-      margin: 0;
+  .gray-font {
+    color: #c1c1c1;
+  }
 
-      .primary-link {
-          float: left;
+  .header, .content, .footer {
+    padding: 20px;
+  }
+
+  html {
+    height: 100vh;
+  }
+
+  .content {
+    margin-top: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    .inner-content {
+      height: 100%;
+      display: table;
+      width: 100%;
+
+      .content-information {
+        vertical-align: middle;
+        display: table-cell;
+
+        img {
+          width: 150px;
           display: block;
-          margin: 0 10px;
-          color: #c1c1c1;
+          margin: 0 auto;
+        }
+        
+        .slogan {
+          width: 685px;
+          margin: 0 auto;
+          text-align: center;
+          letter-spacing: 10px;
+          font-size: 30px;
+
+          .gray-font, .red-font {
+            float: left;
+          }
+
+          .gray-font:first-child {
+            padding-right: 20px;
+          }
+
+          .red-font {
+            padding-right: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .header {
+    height: 70px;
+
+    .logo {
+      float: left;
+      .gray-font, .red-font {
+        float: left;
+        text-transform: uppercase;
+        letter-spacing: 20px;
+        font-size: 60px;
+      }
+    }
+
+    .primary-menu {
+      float: right;
+      line-height: 70px;
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+
+        .primary-link {
+            float: left;
+            display: block;
+            margin: 0 10px;
+            color: #c1c1c1;
+        }
+      }
+    }
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+    .secondary-menu {
+      float: right;
+      line-height: 70px;
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+
+        .primary-link {
+            float: left;
+            display: block;
+            margin: 0 10px;
+            color: #c1c1c1;
+        }
       }
     }
   }
