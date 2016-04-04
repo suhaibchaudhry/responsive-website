@@ -3,12 +3,8 @@ extends ../layout
 block body
   .header
     a(href="/").logo
-      div.red-font
-        | UI
-      div.gray-font
-        | To
-      div.red-font
-        | UX
+      p!= '<span class="red-font">UI</span> <span class="gray-font">To</span> <span class="red-font">UX</span>'
+
     .primary-menu
       ul
         - list = ["<a href='/consulting'>Consulting</a>", "<a href='/technology'>Technology</a>", "<a href='/creative'>Creative</a>", "<a href='/advertising'>Advertising</a>", "<a href='/insights'>Data Insights</a>"]
@@ -20,12 +16,7 @@ block body
       .content-information
         img(src="images/front_egg.png")
         .slogan
-          .gray-font
-            | Data
-          .red-font
-            | driven
-          .gray-font
-            | media agency
+          p!= '<span class="gray-font">Data</span> <span class="red-font">driven</span> <span class="gray-font">media agency</span>'
 
   .footer
     .secondary-menu

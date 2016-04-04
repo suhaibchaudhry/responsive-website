@@ -1,4 +1,4 @@
-.creative {
+.consulting {
   margin: 0;
 
   .header {
@@ -7,12 +7,15 @@
     padding: 20px;
 
     .logo {
-      float: left;
-      .gray-font, .red-font {
-        float: left;
-        text-transform: uppercase;
-        letter-spacing: 20px;
-        font-size: 60px;
+      p {
+        text-align: center;
+
+        .gray-font, .red-font {
+          text-decoration: none;
+          text-transform: uppercase;
+          letter-spacing: 20px;
+          font-size: 60px;
+        }
       }
 
       .red-font {

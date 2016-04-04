@@ -45,23 +45,10 @@
         }
         
         .slogan {
-          width: 685px;
           margin: 0 auto;
           text-align: center;
           letter-spacing: 10px;
           font-size: 30px;
-
-          .gray-font, .red-font {
-            float: left;
-          }
-
-          .gray-font:first-child {
-            padding-right: 20px;
-          }
-
-          .red-font {
-            padding-right: 20px;
-          }
         }
       }
     }
@@ -72,11 +59,16 @@
 
     .logo {
       float: left;
-      .gray-font, .red-font {
-        float: left;
-        text-transform: uppercase;
-        letter-spacing: 20px;
-        font-size: 60px;
+      text-decoration: none;
+      
+      p {
+        text-align: center;
+
+        .gray-font, .red-font {
+          text-transform: uppercase;
+          letter-spacing: 20px;
+          font-size: 60px;
+        }
       }
     }
 
@@ -93,6 +85,11 @@
             display: block;
             margin: 0 10px;
             color: #c1c1c1;
+
+            a {
+              text-decoration: none;
+              color: #c1c1c1;
+            }
         }
       }
     }

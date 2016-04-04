@@ -6,16 +6,15 @@ block body
       p!= '<span class="red-font">UI</span> <span class="gray-font">To</span> <span class="red-font">UX</span>'
     .primary-menu
       ul
-        - list = ["<a href='/consulting'>Consulting</a>", "<a href='/technology'>Technology</a>", "<a href='/creative'>Creative</a>", "<a href='/advertising'>Advertising</a>", "<a href='/insights' class='active'>Data Insights</a>"]
+        - list = ["<a href='/consulting'>Consulting</a>", "<a href='/technology' class='active'>Technology</a>", "<a href='/creative'>Creative</a>", "<a href='/advertising'>Advertising</a>", "<a href='/insights'>Data Insights</a>"]
           each item in list
             li.primary-link!= item
 
   .content
     h1.page-title
-      | Insights
+      | Technology
     .page-subtitle
       | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
-    img(src='images/firedog.png').fire-fox
     ul.services-offered
       li.experience-strategy
         .picture

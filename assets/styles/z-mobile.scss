@@ -1,0 +1,865 @@
+@media (min-width: 320px) and (max-width: 359px) {
+  .homepage {
+    .header {
+      height: 250px;
+
+      a.logo {
+        text-decoration: none;
+        float: none;
+
+        p {
+          .red-font, .gray-font {
+            font-size: 39px;
+          }
+        }
+      }
+    }
+
+    .content {
+      z-index: -9999;
+      
+      .inner-content {
+        .content-information {
+          .slogan {
+            p {
+              .red-font, .gray-font {
+                font-size: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .contact-us {
+    .header {
+      a.logo {
+        p {
+          .red-font, .gray-font {
+            font-size: 41px;
+          }
+        }
+      }
+    }
+
+    .content {
+      h1.page-title {
+        font-size: 55px;
+      }
+
+      .contact-information {
+        .left-sidebar, .right-sidebar {
+          float: none;
+          width: 100%;
+        }
+
+        .left-sidebar {
+          ul {
+            padding: 0;
+            letter-spacing: normal;
+            font-size: 18px;
+            border-bottom: 1px solid #000;
+
+            li::before {
+              height: 17px;
+              width: 25px;
+            }
+          }
+        }
+
+        .right-sidebar {
+          border: none;
+          padding: 15px;
+          margin: 0;
+          width: 100%;
+        }
+      }
+
+      .map {
+        margin-top: 50px;
+
+        #map {
+          height: 350px;
+        }
+      }
+    }
+
+    .footer {
+      .copyright-info {
+        font-size: 16px;
+        float: none;
+      }
+
+      .secondary-menu {
+        font-size: 22px;
+        float: none;
+
+        ul {
+          li.primary-link {
+            padding: 0 7px;
+          }
+        }
+      }
+    }
+  }
+
+  .consulting, .technology, .creative, .advertising, .insights {
+    .header {
+      .logo {
+        text-decoration: none;
+
+        p {
+          .red-font, .gray-font {
+            font-size: 39px;
+          }
+        }
+      }
+    }
+
+    .content {
+      h1.page-title {
+        font-size: 35px;
+      }
+
+      .page-subtitle {
+        font-size: 20px;
+      }
+
+      ul.services-offered {
+        padding: 0;
+        li {
+          height: 500px;
+          width: 100%;
+
+          .picture {
+            width: 100%;
+
+            img {
+              width: 100%;
+            }
+          }
+
+          .row-inner {
+            width: 100%;
+
+            h3.menu-title {
+              font-size: 18px;
+              text-align: center;
+            }
+
+            .menu-content {
+              font-size: 13px;
+              margin: 0 auto;
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      h2 {
+        font-size: 54px;
+      }
+
+      .what-we-do-block {
+        ul {
+          column-count: 1;
+          column-gap: 0;
+          padding: 0;
+
+          li {
+            padding-left: 20px;
+            font-size: 17px;
+
+            &::before {
+              height: 15px;
+              width: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    .footer {
+      .copyright-info {
+        font-size: 16px;
+        float: none;
+      }
+
+      .secondary-menu {
+        font-size: 22px;
+        float: none;
+
+        ul {
+          li.primary-link {
+            padding: 0 7px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 374px) {
+  .homepage {
+    .header {
+      height: 250px;
+
+      a.logo {
+        text-decoration: none;
+        float: none;
+
+        p {
+          .red-font, .gray-font {
+            font-size: 50px;
+          }
+        }
+      }
+    }
+
+    .content {
+      z-index: -9999;
+
+      .inner-content {
+        .content-information {
+          .slogan {
+            p {
+              .red-font, .gray-font {
+                font-size: 26px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .contact-us {
+    .header {
+      a.logo {
+        p {
+          .red-font, .gray-font {
+            font-size: 52px;
+          }
+        }
+      }
+    }
+
+    .content {
+      h1.page-title {
+        font-size: 62px;
+      }
+
+      .contact-information {
+        .left-sidebar, .right-sidebar {
+          float: none;
+          width: 100%;
+        }
+
+        .left-sidebar {
+          ul {
+            padding: 0;
+            letter-spacing: normal;
+            font-size: 21px;
+            border-bottom: 1px solid #000;
+
+            li::before {
+              height: 17px;
+              width: 25px;
+            }
+          }
+        }
+
+        .right-sidebar {
+          border: none;
+          padding: 15px;
+          margin: 0;
+          width: 100%;
+        }
+      }
+
+      .map {
+        margin-top: 50px;
+
+        #map {
+          height: 350px;
+        }
+      }
+    }
+
+    .footer {
+      .copyright-info {
+        font-size: 18px;
+        float: none;
+      }
+
+      .secondary-menu {
+        font-size: 25px;
+        float: none;
+
+        ul {
+          li.primary-link {
+            padding: 0 7px;
+          }
+        }
+      }
+    }
+  }
+
+  .consulting, .technology, .creative, .advertising, .insights {
+    .header {
+      .logo {
+        text-decoration: none;
+
+        p {
+          .red-font, .gray-font {
+            font-size: 50px;
+          }
+        }
+      }
+    }
+
+    .content {
+      h1.page-title {
+        font-size: 43px;
+      }
+
+      .page-subtitle {
+        font-size: 20px;
+      }
+
+      ul.services-offered {
+        padding: 0;
+        li {
+          height: 500px;
+          width: 100%;
+
+          .picture {
+            width: 100%;
+
+            img {
+              width: 100%;
+            }
+          }
+
+          .row-inner {
+            width: 100%;
+
+            h3.menu-title {
+              font-size: 20px;
+              text-align: center;
+            }
+
+            .menu-content {
+              font-size: 15px;
+              margin: 0 auto;
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      h2 {
+        font-size: 54px;
+      }
+
+      .what-we-do-block {
+        ul {
+          column-count: 1;
+          column-gap: 0;
+          padding: 0;
+
+          li {
+            padding-left: 20px;
+            font-size: 17px;
+
+            &::before {
+              height: 15px;
+              width: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    .footer {
+      .copyright-info {
+        font-size: 18px;
+        float: none;
+      }
+
+      .secondary-menu {
+        font-size: 25px;
+        float: none;
+
+        ul {
+          li.primary-link {
+            padding: 0 7px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 375px) and (max-width: 410px) {
+  .homepage {
+    .header {
+      height: 250px;
+
+      a.logo {
+        text-decoration: none;
+        float: none;
+
+        p {
+          .red-font, .gray-font {
+            font-size: 54px;
+          }
+        }
+      }
+    }
+
+    .content {
+      z-index: -9999;
+
+      .inner-content {
+        .content-information {
+          .slogan {
+            p {
+              .red-font, .gray-font {
+                font-size: 28px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .contact-us {
+    .header {
+      a.logo {
+        p {
+          .red-font, .gray-font {
+            font-size: 56px;
+          }
+        }
+      }
+    }
+
+    .content {
+      h1.page-title {
+        font-size: 62px;
+      }
+
+      .contact-information {
+        .left-sidebar, .right-sidebar {
+          float: none;
+          width: 100%;
+        }
+
+        .left-sidebar {
+          ul {
+            padding: 0;
+            letter-spacing: normal;
+            font-size: 21px;
+            border-bottom: 1px solid #000;
+
+            li::before {
+              height: 17px;
+              width: 25px;
+            }
+          }
+        }
+
+        .right-sidebar {
+          border: none;
+          padding: 15px;
+          margin: 0;
+          width: 100%;
+        }
+      }
+
+      .map {
+        margin-top: 50px;
+
+        #map {
+          height: 350px;
+        }
+      }
+    }
+
+    .footer {
+      .copyright-info {
+        font-size: 18px;
+        float: none;
+      }
+
+      .secondary-menu {
+        font-size: 25px;
+        float: none;
+
+        ul {
+          li.primary-link {
+            padding: 0 7px;
+          }
+        }
+      }
+    }
+  }
+
+  .consulting, .technology, .creative, .advertising, .insights {
+    .header {
+      .logo {
+        text-decoration: none;
+
+        p {
+          .red-font, .gray-font {
+            font-size: 54px;
+          }
+        }
+      }
+    }
+
+    .content {
+      h1.page-title {
+        font-size: 42px;
+      }
+
+      .page-subtitle {
+        font-size: 20px;
+      }
+
+      ul.services-offered {
+        padding: 0;
+        li {
+          height: 500px;
+          width: 100%;
+
+          .picture {
+            width: 100%;
+
+            img {
+              width: 100%;
+            }
+          }
+
+          .row-inner {
+            width: 100%;
+
+            h3.menu-title {
+              font-size: 23px;
+              text-align: center;
+            }
+
+            .menu-content {
+              font-size: 15px;
+              margin: 0 auto;
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      h2 {
+        font-size: 54px;
+      }
+
+      .what-we-do-block {
+        ul {
+          column-count: 1;
+          column-gap: 0;
+          padding: 0;
+
+          li {
+            padding-left: 20px;
+            font-size: 17px;
+
+            &::before {
+              height: 15px;
+              width: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    .footer {
+      .copyright-info {
+        font-size: 19px;
+        float: none;
+      }
+
+      .secondary-menu {
+        font-size: 27px;
+        float: none;
+
+        ul {
+          li.primary-link {
+            padding: 0 7px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 411px) and (max-width: 434px) {
+  .homepage {
+    .header {
+      height: 250px;
+
+      a.logo {
+        text-decoration: none;
+        float: none;
+
+        p {
+          .red-font, .gray-font {
+            font-size: 63px;
+          }
+        }
+      }
+    }
+
+    .content {
+      z-index: -9999;
+
+      .inner-content {
+        .content-information {
+          .slogan {
+            p {
+              .red-font, .gray-font {
+                font-size: 32px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .consulting, .technology, .creative, .advertising, .insights {
+    .header {
+      .logo {
+        text-decoration: none;
+
+        p {
+          .red-font, .gray-font {
+            font-size: 63px;
+          }
+        }
+      }
+    }
+
+    .content {
+      h1.page-title {
+        font-size: 50px;
+      }
+
+      .page-subtitle {
+        font-size: 20px;
+      }
+
+      ul.services-offered {
+        padding: 0;
+        li {
+          height: 535px;
+          width: 100%;
+
+          .picture {
+            width: 100%;
+
+            img {
+              width: 100%;
+            }
+          }
+
+          .row-inner {
+            width: 100%;
+
+            h3.menu-title {
+              font-size: 27px;
+              text-align: center;
+            }
+
+            .menu-content {
+              font-size: 15px;
+              margin: 0 auto;
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      h2 {
+        font-size: 54px;
+      }
+
+      .what-we-do-block {
+        ul {
+          column-count: 1;
+          column-gap: 0;
+          padding: 0;
+
+          li {
+            padding-left: 20px;
+            font-size: 23px;
+
+            &::before {
+              height: 15px;
+              width: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    .footer {
+      .copyright-info {
+        font-size: 21px;
+        float: none;
+      }
+
+      .secondary-menu {
+        font-size: 31px;
+        float: none;
+
+        ul {
+          li.primary-link {
+            padding: 0 7px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 435px) and (max-width: 440px) {
+  .homepage {
+    .header {
+      height: 250px;
+
+      a.logo {
+        text-decoration: none;
+        float: none;
+
+        p {
+          .red-font, .gray-font {
+            font-size: 70px;
+          }
+        }
+      }
+    }
+
+    .content {
+      z-index: -9999;
+
+      .inner-content {
+        .content-information {
+          .slogan {
+            p {
+              .red-font, .gray-font {
+                font-size: 36px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .consulting, .technology, .creative, .advertising, .insights {
+    .header {
+      .logo {
+        text-decoration: none;
+
+        p {
+          .red-font, .gray-font {
+            font-size: 70px;
+          }
+        }
+      }
+    }
+
+    .content {
+      h1.page-title {
+        font-size: 55px;
+      }
+
+      .page-subtitle {
+        font-size: 25px;
+      }
+
+      ul.services-offered {
+        padding: 0;
+        li {
+          height: 600px;
+          width: 100%;
+
+          .picture {
+            width: 100%;
+
+            img {
+              width: 100%;
+            }
+          }
+
+          .row-inner {
+            width: 100%;
+
+            h3.menu-title {
+              font-size: 30px;
+              text-align: center;
+            }
+
+            .menu-content {
+              font-size: 13px;
+              margin: 0 auto;
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      h2 {
+        font-size: 54px;
+      }
+
+      .what-we-do-block {
+        ul {
+          column-count: 1;
+          column-gap: 0;
+          padding: 0;
+
+          li {
+            padding-left: 20px;
+            font-size: 24px;
+
+            &::before {
+              height: 15px;
+              width: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    .footer {
+      .copyright-info {
+        font-size: 22px;
+        float: none;
+      }
+
+      .secondary-menu {
+        font-size: 33px;
+        float: none;
+
+        ul {
+          li.primary-link {
+            padding: 0 7px;
+          }
+        }
+      }
+    }
+  }
+}

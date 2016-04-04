@@ -47,6 +47,18 @@ module.exports.routes = {
   '/insights': {
     controller: 'PublicController',
     action: 'insights'
+  },
+  '/consulting': {
+    controller: 'PublicController',
+    action: 'consulting'
+  },
+  '/technology': {
+    controller: 'PublicController',
+    action: 'technology'
+  },
+  '/advertising': {
+    controller: 'PublicController',
+    action: 'advertising'
   }
 
   /***************************************************************************
