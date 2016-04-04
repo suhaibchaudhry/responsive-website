@@ -1,60 +1,55 @@
 extends ../layout
 
 block body
-  .header
-    a(href="/").logo
-      p!= '<span class="red-font">UI</span> <span class="gray-font">To</span> <span class="red-font">UX</span>'
-    .primary-menu
-      ul
-        - list = ["<a href='/consulting'>Consulting</a>", "<a href='/technology'>Technology</a>", "<a href='/creative' class='active'>Creative</a>", "<a href='/advertising'>Advertising</a>", "<a href='/insights'>Data Insights</a>"]
-          each item in list
-            li.primary-link!= item
+  div(class='header row')
+    div(class='small-4 medium-4 large-4 columns')
+      a(href="/").logo
+        p!= '<span class="red-font">UI</span> <span class="gray-font">To</span> <span class="red-font">UX</span>'
 
-  .content
-    h1.page-title
-      | Creative
-    .page-subtitle
-      | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
-    img(src='images/baloon_elephant.png').baloon-elephant
-    ul.services-offered
-      li.experience-strategy
-        .picture
-          img(src='images/creative_experience-strategy.png').experience-strategy-picture
-        .row-inner
-          h3.menu-title
-            | Experience strategy.
-          .menu-content
-            | We evaluate existing customer interactions, performance metrics, data and capabilities to create a strategy for the new experience a company wishes to provide its customers. All customer touchpoints, from digital to in-store to phone, are considered.
-      li.growth-opportunities
-        .picture
-          img(src='images/creative_growth-opportunities.png').growth-opportunities-picture
-        .row-inner
-          h3.menu-title
-            | Growth opportunities.
-          .menu-content
-            | We partner with clients to determine where and how to compelte by rapidly imemrsing into an industry or problem space and facilitation a series of workshops to identify opportunities, generate and priorotize ideas, and prototype and test product and service concepts.
-      li.asset-monetization
-        .picture
-          img(src='images/creative_asset-monitization.png').asset-monitization-picture
-        .row-inner
-          h3.menu-title
-            | Asset monetization
-          .menu-content
-            | We identify and unlock new sources of revenue related to existing and future digital assets. Our business strategists collaborate with clients to identify underlying business opportunities (e.g., new services, captive audiences, data) and determine and optimal mix of revenue models.
+    div(class='small-8 medium-8 large-8 columns')
+      .primary-menu
+        ul
+          - list = ["<a href='/consulting'>Consulting</a>", "<a href='/technology'>Technology</a>", "<a href='/creative' class='active'>Creative</a>", "<a href='/advertising'>Advertising</a>", "<a href='/insights'>Data Insights</a>"]
+            each item in list
+              li.primary-link!= item
 
-    h2
-      | What else we do
-    .what-we-do-block
-      ul
-        - list = ["Business strategy", "User experience design", "Social", "Brands & Communication", "Creative", "Search", "Data science", "Technology", "Media", "Research", "Content"]
-          each item in list
-            li.what-we-do-item= item
+  div(class='content row')
+    div(class='small-12 medium-12 large-12 column')
+      h1.page-title
+        | Creative
+      .page-subtitle
+        | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+      img(src='images/baloon_elephant.png').baloon-elephant
+      ul.services-offered
+        li.experience-strategy
+          .picture
+            img(src='images/creative_experience-strategy.png').experience-strategy-picture
+          .row-inner
+            h3.menu-title
+              | Experience strategy.
+            .menu-content
+              | We evaluate existing customer interactions, performance metrics, data and capabilities to create a strategy for the new experience a company wishes to provide its customers. All customer touchpoints, from digital to in-store to phone, are considered.
+        li.growth-opportunities
+          .picture
+            img(src='images/creative_growth-opportunities.png').growth-opportunities-picture
+          .row-inner
+            h3.menu-title
+              | Growth opportunities.
+            .menu-content
+              | We partner with clients to determine where and how to compelte by rapidly imemrsing into an industry or problem space and facilitation a series of workshops to identify opportunities, generate and priorotize ideas, and prototype and test product and service concepts.
+        li.asset-monetization
+          .picture
+            img(src='images/creative_asset-monitization.png').asset-monitization-picture
+          .row-inner
+            h3.menu-title
+              | Asset monetization
+            .menu-content
+              | We identify and unlock new sources of revenue related to existing and future digital assets. Our business strategists collaborate with clients to identify underlying business opportunities (e.g., new services, captive audiences, data) and determine and optimal mix of revenue models.
 
-  .footer
-    .copyright-info
-      | UITOUX Inc. All rights reserved
-    .secondary-menu
-      ul
-        - list = ["About", "Contact"]
-          each item in list
-            li.primary-link= item
+      h2.what-we-do-title
+        | What else we do
+      .what-we-do-block
+        ul
+          - list = ["Business strategy", "User experience design", "Social", "Brands & Communication", "Creative", "Search", "Data science", "Technology", "Media", "Research", "Content"]
+            each item in list
+              li.what-we-do-item= item

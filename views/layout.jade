@@ -30,6 +30,9 @@ html
           + Use a different or additional preprocessor, like SASS, SCSS or Stylus
 
     // STYLES
+    link(rel="stylesheet", href="/styles/foundation/foundation.css")
+    link(rel="stylesheet", href="/styles/foundation/normalize.css")
+    link(rel="stylesheet", href="/styles/a-common.css")
     link(rel="stylesheet", href="/styles/advertising.css")
     link(rel="stylesheet", href="/styles/consulting.css")
     link(rel="stylesheet", href="/styles/contact.css")
@@ -45,6 +48,18 @@ html
 
   body(class=bodyClass ? bodyClass : '')
     block body
+
+    div(class='footer row')
+      div(class='small-8 medium-8 large-8 columns')
+        .copyright-info
+          | UITOUX Inc. All rights reserved
+
+      div(class='small-4 medium-4 large-4 columns')
+        .secondary-menu
+          ul
+            - list = ["About", "Contact"]
+              each item in list
+                li.primary-link= item
 
     //-
       Client-side Templates
@@ -91,7 +106,31 @@ html
           + Use a different preprocessor, like TypeScript
 
     // SCRIPTS
+    script(src="/js/dependencies/jquery.min.js")
+    script(src="/js/dependencies/underscore-min.js")
+    script(src="/js/dependencies/backbone-min.js")
+    script(src="/js/dependencies/jquery.cookie.js")
+    script(src="/js/dependencies/fastclick.js")
+    script(src="/js/dependencies/placeholder.js")
+    script(src="/js/dependencies/modernizr.js")
     script(src="/js/dependencies/sails.io.js")
+    script(src="/js/dependencies/foundation.min.js")
+    script(src="/js/dependencies/foundation/foundation.abide.js")
+    script(src="/js/dependencies/foundation/foundation.accordion.js")
+    script(src="/js/dependencies/foundation/foundation.alert.js")
+    script(src="/js/dependencies/foundation/foundation.clearing.js")
+    script(src="/js/dependencies/foundation/foundation.dropdown.js")
+    script(src="/js/dependencies/foundation/foundation.equalizer.js")
+    script(src="/js/dependencies/foundation/foundation.interchange.js")
+    script(src="/js/dependencies/foundation/foundation.joyride.js")
+    script(src="/js/dependencies/foundation/foundation.magellan.js")
+    script(src="/js/dependencies/foundation/foundation.offcanvas.js")
+    script(src="/js/dependencies/foundation/foundation.orbit.js")
+    script(src="/js/dependencies/foundation/foundation.reveal.js")
+    script(src="/js/dependencies/foundation/foundation.slider.js")
+    script(src="/js/dependencies/foundation/foundation.tab.js")
+    script(src="/js/dependencies/foundation/foundation.tooltip.js")
+    script(src="/js/dependencies/foundation/foundation.topbar.js")
     script(src="/js/dependencies/mapbox.js")
     script(src="/js/map.js")
     // SCRIPTS END

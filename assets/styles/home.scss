@@ -1,33 +1,42 @@
+$header-height: 130px;
+$menu-padding-top: 40px;
+
 .homepage {
+  .footer {
+    display: none;
+  }
+  
   background: #3a3a3a;
   color: #fff;
   text-transform: uppercase;
   height: 100vh;
   margin: 0;
 
-  .red-font {
-    color: red;
-  }
-
-  .gray-font {
-    color: #c1c1c1;
-  }
-
   .header, .content, .footer {
     padding: 20px;
+    background: inherit;
   }
 
   html {
     height: 100vh;
   }
 
+  .content_inside-pages {
+    display: none;
+  }
+
   .content {
+    display: block;
     margin-top: 90px;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+
+    .column {
+      height: 100%;
+    }
 
     .inner-content {
       height: 100%;
@@ -47,72 +56,67 @@
         .slogan {
           margin: 0 auto;
           text-align: center;
-          letter-spacing: 10px;
-          font-size: 30px;
+
+          .gray-font, .red-font {
+            letter-spacing: 10px;
+            font-size: 30px;
+          }
         }
       }
+    }
+
+    .what-we-do-title, .what-we-do-block {
+      display: none;
     }
   }
 
   .header {
-    height: 70px;
+    height: $header-height;
 
     .logo {
-      float: left;
       text-decoration: none;
       
       p {
         text-align: center;
-
-        .gray-font, .red-font {
-          text-transform: uppercase;
-          letter-spacing: 20px;
-          font-size: 60px;
-        }
       }
     }
 
     .primary-menu {
-      float: right;
-      line-height: 70px;
+      padding-top: $menu-padding-top;
 
       ul {
-        list-style-type: none;
-        margin: 0;
-
         .primary-link {
-            float: left;
-            display: block;
-            margin: 0 10px;
-            color: #c1c1c1;
+          color: #c1c1c1;
 
-            a {
-              text-decoration: none;
-              color: #c1c1c1;
-            }
+          a {
+            color: #c1c1c1;
+          }
         }
       }
     }
   }
 
-  .footer {
+  .footer-outer {
     position: absolute;
     bottom: 0;
-    right: 0;
-    
-    .secondary-menu {
-      float: right;
-      line-height: 70px;
+    width: 100%;
 
-      ul {
-        list-style-type: none;
-        margin: 0;
+    .footer {
+      display: block;
+      border-top: none;
+      
+      .secondary-menu {
+        line-height: 70px;
 
-        .primary-link {
-            float: left;
-            display: block;
-            margin: 0 10px;
-            color: #c1c1c1;
+        ul {
+          list-style-type: none;
+
+          .primary-link {
+              display: block;
+              margin: 0 10px;
+              color: #c1c1c1;
+              padding: 0;
+          }
         }
       }
     }
