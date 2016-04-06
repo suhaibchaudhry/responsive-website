@@ -1,3 +1,5 @@
+@import 'foundation/foundation.css';
+
 .advertising, .consulting, .creative, .insights, .technology, .homepage {
   margin: 0;
 }
@@ -6,10 +8,6 @@
   text-transform: uppercase;
   letter-spacing: 20px;
   font-size: 60px;
-}
-
-.gray-font {
-  color: #c1c1c1;
 }
 
 .red-font {
@@ -42,6 +40,7 @@
   .primary-menu {
     float: right;
     line-height: 70px;
+    padding-top: 40px;
 
     ul {
       list-style-type: none;
