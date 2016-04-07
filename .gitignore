@@ -116,3 +116,7 @@ npm-debug.log
 nbproject
 .idea
 .node_history
+
+# Ignore docs files
+styles/.sass-cache
+styles/.sass-cache/*
