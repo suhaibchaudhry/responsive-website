@@ -30,6 +30,7 @@ var cssFilesToInject = [
 var jsFilesToInject = [
 
   // Load sails.io before everything else
+  'js/dependencies/sails.io.js',
   'js/dependencies/jquery.min.js',
   'js/dependencies/underscore-min.js',
   'js/dependencies/backbone-min.js',
@@ -41,10 +42,7 @@ var jsFilesToInject = [
   'js/dependencies/modernizr.js',
   'js/dependencies/foundation.js',
   //'js/app.js',
-  //'js/models/**/*.js',
-
-  // Load sails.io before everything else
-  'js/dependencies/sails.io.js',
+  //'js/models/**/*.js'
 
   // Dependencies like jQuery, or Angular are brought in here
   'js/dependencies/**/*.js',

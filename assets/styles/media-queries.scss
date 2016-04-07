@@ -82,12 +82,14 @@
           display: table;
 
           li.primary-link {
-            font-size: 13px;
+            a {
+              font-size: 13px;
 
-            a.active {
-              &::before {
-                height: 12px;
-                width: 15px;
+              &.active {
+                &::before {
+                  height: 12px;
+                  width: 15px;
+                }
               }
             }
           }
@@ -192,6 +194,60 @@
 
   .content {
     margin-top: 140px;
+
+    .column {
+      h1.page-title {
+        font-size: 80px;
+      }
+
+      .page-subtitle {
+        font-size: 20px;
+      }
+
+      ul.services-offered {
+        li {
+          height: auto;
+
+          .picture {
+            width: 100%;
+
+            img {
+              width: 100%;
+            }
+          }
+
+          .row-inner {
+            width: 100%;
+            text-align: center;
+
+            h3.menu-title {
+              letter-spacing: 5px;
+            }
+
+            .menu-content {
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      .what-we-do-block {
+        ul {
+          padding: 20px 0;
+          column-count: 1;
+
+          li.what-we-do-item {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    .copyright-info {
+      font-size: 20px;
+    }
   }
 }
 

@@ -50,7 +50,7 @@ html
       @media only screen and (-webkit-max-device-pixel-ratio : 1.9),
         only screen and (max--moz-device-pixel-ratio: 1.9),
         only screen and (max-device-pixel-ratio: 1.9)
-        {
+      {
           head {
            /*
              Set device-pixel-ratio cookie
@@ -58,15 +58,14 @@ html
            */
             background-image: url(/set-device-pixel-ratio/1);
           }
-        }
-
+      }
       @media only screen and (-webkit-min-device-pixel-ratio : 2),
         only screen and (min--moz-device-pixel-ratio: 2),
         only screen and (-o-min-device-pixel-ratio: 2/1),
-	only screen and (min-device-pixel-ratio: 2),
-	only screen and (min-resolution: 192dpi),
+        only screen and (min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
         only screen and (min-resolution: 2dppx)
-        { 
+      { 
           head {
            /*
              Set device-pixel-ratio cookie
@@ -74,13 +73,13 @@ html
            */
             background-image: url(/set-device-pixel-ratio/2);
           }
-        }
+      }
 
       @media only screen and (-webkit-min-device-pixel-ratio : 3),
         only screen and (min--moz-device-pixel-ratio: 3),
         only screen and (-o-min-device-pixel-ratio: 3/1),
         only screen and (min-device-pixel-ratio: 3)
-        {
+      {
           head {
            /*
              Set device-pixel-ratio cookie
@@ -88,7 +87,7 @@ html
            */
             background-image: url(/set-device-pixel-ratio/4);
           }
-        }
+      }
 
   body(class=bodyClass ? bodyClass : '')
     block body
@@ -150,6 +149,7 @@ html
           + Use a different preprocessor, like TypeScript
 
     // SCRIPTS
+    script(src="/js/dependencies/sails.io.js")
     script(src="/js/dependencies/jquery.min.js")
     script(src="/js/dependencies/underscore-min.js")
     script(src="/js/dependencies/backbone-min.js")
@@ -157,7 +157,6 @@ html
     script(src="/js/dependencies/fastclick.js")
     script(src="/js/dependencies/placeholder.js")
     script(src="/js/dependencies/modernizr.js")
-    script(src="/js/dependencies/sails.io.js")
     script(src="/js/dependencies/foundation.min.js")
     script(src="/js/dependencies/foundation/foundation.abide.js")
     script(src="/js/dependencies/foundation/foundation.accordion.js")
