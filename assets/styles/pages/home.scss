@@ -1,5 +1,8 @@
+@import "foundation/_settings.scss";
+@import "foundation/foundation.scss";
+
 $header-height: 130px;
-$menu-padding-top: 40px;
+$menu-padding-top: 30px;
 
 .homepage {
   .footer {
@@ -119,6 +122,90 @@ $menu-padding-top: 40px;
           }
         }
       }
+    }
+  }
+}
+
+@media #{$medium-only} {
+  .homepage {
+    .header {
+      .columns {
+        width: 100%;
+
+        .logo {
+          width: 100%;
+
+          p {
+            display: table;
+            margin: 0 auto;
+
+            .red-font, .gray-font {
+              letter-spacing: 5px;
+              font-size: 60px;
+            }
+          }
+        }
+
+        .primary-menu {
+          width: 100%;
+          padding-top: 0;
+
+          ul {
+            margin: 0 auto;
+            display: table;
+
+            li.primary-link {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+
+    .content {
+      margin-top: 140px;
+    }
+  }
+}
+
+@media #{$small-only} {
+  .homepage {
+    .header {
+      .columns {
+        width: 100%;
+
+        .logo {
+          width: 100%;
+
+          p {
+            display: table;
+            margin: 0 auto;
+
+            .red-font, .gray-font {
+              letter-spacing: 5px;
+              font-size: 60px;
+            }
+          }
+        }
+
+        .primary-menu {
+          width: 100%;
+          padding-top: 0;
+
+          ul {
+            margin: 0 auto;
+            display: table;
+
+            li.primary-link {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+
+    .content {
+      margin-top: 140px;
     }
   }
 }
