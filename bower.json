@@ -20,7 +20,7 @@
   ],
   "dependencies": {
     "mapbox.js": "^2.3.0",
-    "jquery": "1.x.x",
+    "jquery": "2.x.x",
     "underscore": "1.x.x",
     "backbone": "1.x.x",
     "Hover": "2.x.x",
