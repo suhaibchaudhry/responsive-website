@@ -5,6 +5,10 @@ $header-height: 130px;
 $menu-padding-top: 30px;
 
 .homepage {
+  .navigation {
+    display: none;
+  }
+
   .footer {
     display: none;
   }
@@ -119,6 +123,11 @@ $menu-padding-top: 30px;
               margin: 0 10px;
               color: #c1c1c1;
               padding: 0;
+
+              a {
+                color: #c1c1c1;
+                font-size: 16px;
+              }
           }
         }
       }
@@ -170,7 +179,15 @@ $menu-padding-top: 30px;
 
 @media #{$small-only} {
   .homepage {
+    .navigation {
+      display: block;
+    }
+
     .header {
+      .small-8 {
+        display: none;
+      }
+
       .columns {
         width: 100%;
 
@@ -205,7 +222,7 @@ $menu-padding-top: 30px;
     }
 
     .content {
-      margin-top: 140px;
+      margin-top: 170px;
     }
   }
 }

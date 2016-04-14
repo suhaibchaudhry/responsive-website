@@ -5,10 +5,6 @@
   margin: 0;
 
   .header {
-    .navigation {
-      display: none;
-    }
-
     background: #EAEAEA;
     padding: 20px;
 
@@ -100,7 +96,7 @@
               display: inline-block;
               height: 25px;
               width: 35px;
-              background-image: url("../images/generic_bullet.png");
+              background-image: url("../../images/generic_bullet.png");
               background-size: contain;
               background-repeat: no-repeat;
             }
@@ -228,52 +224,6 @@
           color: #000;
           margin: 0;
           padding: 0 10px;
-        }
-      }
-    }
-  }
-}
-
-@media #{$small-only} {
-  .header {
-    .logo {
-      .red-font {
-        color: #fff;
-      }
-    }
-  }
-}
-
-@media #{$medium-only} {
-  .contact-us {
-    .header {
-      .logo {
-        .red-font {
-          color: #000;
-        }
-      }
-    }
-  }
-}
-
-@media #{$large-only} {
-  .contact-us {
-    .header {
-      .logo {
-        .red-font {
-          color: blue;
-        }
-      }
-    }
-  }
-}
-
-@media #{$xlarge-only} {
-  .contact-us {
-    .header {
-      .logo {
-        .red-font {
-          color: yellow;
         }
       }
     }

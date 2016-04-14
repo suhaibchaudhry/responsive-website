@@ -100,9 +100,9 @@ html
       div(class='small-5 medium-5 large-5 columns')
         .secondary-menu
           ul
-            - list = ["About", "Contact"]
+            - list = ["<a href='/about'>About</a>", "<a href='/contact'>Contact</a>"]
               each item in list
-                li.primary-link= item
+                li.primary-link!= item
 
     //-
       Client-side Templates

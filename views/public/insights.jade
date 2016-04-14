@@ -13,6 +13,26 @@ block body
             each item in list
               li.primary-link!= item
 
+    div(class='navigation row')
+        div(class='small-12 medium-12 large-12 columns')
+          nav(class='top-bar' data-topbar role='navigation' data-options='is_hover: true')
+            section(class='top-bar-section')
+              ul(class='right')
+                li(class='divider hide-for-small')
+                li(class='has-dropdown')
+                  a Main Menu
+                  ul(class='dropdown')
+                    li
+                      a(href='consulting') Consulting
+                    li
+                      a(href='technology') Technology
+                    li
+                      a(href='creative') Creative
+                    li
+                      a(href='advertising') Advertising
+                    li
+                      a(href='insights') Data Insights
+
   div(class='content row')
     div(class='small-12 medium-12 large-12 column')
       h1.page-title

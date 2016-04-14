@@ -20,10 +20,18 @@ block body
               ul(class='right')
                 li(class='divider hide-for-small')
                 li(class='has-dropdown')
-                  a Main Item 1
+                  a Main Menu
                   ul(class='dropdown')
                     li
-                      label Dropdown Level 1 Label
+                      a(href='consulting') Consulting
+                    li
+                      a(href='technology') Technology
+                    li
+                      a(href='creative') Creative
+                    li
+                      a(href='advertising') Advertising
+                    li
+                      a(href='insights') Data Insights
               
 
   div(class='content row')
@@ -39,6 +47,6 @@ block body
       div(class='small-12 medium-12 large-12 columns')
         .secondary-menu
           ul
-            - list = ["About", "Contact"]
+            - list = ["<a href='/about'>About</a>", "<a href='/contact'>Contact</a>"]
               each item in list
-                li.primary-link= item
+                li.primary-link!= item

@@ -1,6 +1,16 @@
 @import "foundation/_settings.scss";
 @import "foundation/foundation.scss";
 
+@media #{$xlarge-only} {
+  .footer {
+    .secondary-menu {
+      a {
+        font-size: 35px;
+      }
+    }
+  }
+}
+
 @media #{$large-only} {
   .content {
     margin-top: 140px;
@@ -50,6 +60,12 @@
   .footer {
     .copyright-info {
       font-size: 20px;
+    }
+
+    .secondary-menu {
+      a {
+        font-size: 20px;
+      }
     }
   }
 }
@@ -247,47 +263,6 @@
   .footer {
     .copyright-info {
       font-size: 20px;
-    }
-  }
-}
-
-
-@media #{$small-only} {
-  .header {
-    .logo {
-      .red-font {
-        color: #fff;
-      }
-    }
-  }
-}
-
-@media #{$medium-only} {
-  .header {
-    .logo {
-      .red-font {
-        color: #000;
-      }
-    }
-  }
-}
-
-@media #{$large-only} {
-  .header {
-    .logo {
-      .red-font {
-        color: blue;
-      }
-    }
-  }
-}
-
-@media #{$xlarge-only} {
-  .header {
-    .logo {
-      .red-font {
-        color: yellow;
-      }
     }
   }
 }

@@ -1,6 +1,6 @@
-L.mapbox.accessToken = 'pk.eyJ1Ijoic3ViZXlkb28iLCJhIjoiY2ltY2s3bms5MDAwd3UxbHZyYzNtOHZoOCJ9.gEzvf79UKrvwKglhSRlLFg';
+L.mapbox.accessToken = 'pk.eyJ1Ijoic3ViZXlkb28iLCJhIjoiY2ltY2poMmlkMDAwa3Uxa2t5Nm03M3MxcCJ9.GihQckRyoRaxqVLW1RbQyg';
 var map = L.mapbox.map('map', 'mapbox.streets')
-    .setView([29.63, -95.59], 15);
+    .setView([29.632599, -95.594004], 15);
 
 map.dragging.disable();
 map.touchZoom.disable();
@@ -18,13 +18,13 @@ L.mapbox.featureLayer({
         // coordinates here are in longitude, latitude order because
         // x, y is the standard for GeoJSON and many formats
         coordinates: [
-          -95.59,
-          29.63 
+          -95.594004,
+          29.632599 
         ]
     },
     properties: {
-        title: 'Peregrine Espresso',
-        description: '1718 14th St NW, Washington, DC',
+        title: 'UI to UX',
+        description: '10701 Corporate Drive, Suite #209, Stafford, TX 77477',
         // one can customize markers by adding simplestyle properties
         // https://www.mapbox.com/guides/an-open-platform/#simplestyle
         'marker-size': 'large',
