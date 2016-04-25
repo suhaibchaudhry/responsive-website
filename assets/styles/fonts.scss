@@ -1,0 +1,40 @@
+// Fonts variables
+$titleFont: 'encode_sans_condensedregular', Helvetica, Arial, sans-serif;
+$logoFont: "futurist_fixed-widthregular", Helvetica, Arial, sans-serif;
+$contentFont: 'Myanmar Text', courier, monospace;
+
+@font-face {
+        font-family: 'Myanmar Text';
+        src: url('/fonts/myanmar/MyanmarText.eot');
+        src: url('/fonts/myanmar/MyanmarText.eot?#iefix') format('embedded-opentype'),
+                url('/fonts/myanmar/MyanmarText.woff2') format('woff2'),
+                url('/fonts/myanmar/MyanmarText.woff') format('woff'),
+                url('/fonts/myanmar/MyanmarText.ttf') format('truetype'),
+                url('/fonts/myanmar/MyanmarText.svg#MyanmarText') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'futurist_fixed-widthregular';
+    src: url('/fonts/futurist/futrfw-webfont.eot');
+    src: url('/fonts/futurist/futrfw-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/futurist/futrfw-webfont.woff2') format('woff2'),
+         url('/fonts/futurist/futrfw-webfont.woff') format('woff'),
+         url('/fonts/futurist/futrfw-webfont.ttf') format('truetype'),
+         url('/fonts/futurist/futrfw-webfont.svg#futurist_fixed-widthregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'encode_sans_condensedregular';
+    src: url('/fonts/encoded_sans_condensed/encodesanscondensed-400-regular-webfont.eot');
+    src: url('/fonts/encoded_sans_condensed/encodesanscondensed-400-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/encoded_sans_condensed/encodesanscondensed-400-regular-webfont.woff2') format('woff2'),
+         url('/fonts/encoded_sans_condensed/encodesanscondensed-400-regular-webfont.woff') format('woff'),
+         url('/fonts/encoded_sans_condensed/encodesanscondensed-400-regular-webfont.ttf') format('truetype'),
+         url('/fonts/encoded_sans_condensed/encodesanscondensed-400-regular-webfont.svg#encode_sans_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

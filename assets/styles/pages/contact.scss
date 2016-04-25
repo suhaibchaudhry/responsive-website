@@ -1,5 +1,6 @@
 @import "foundation/_settings.scss";
 @import "foundation/foundation.scss";
+@import "fonts.scss";
 
 .contact-us {
   margin: 0;
@@ -78,6 +79,7 @@
         width: 50%;
         text-align: left;
         box-sizing: border-box;
+        font-family: $contentFont;
       }
 
       .left-sidebar {
@@ -245,7 +247,7 @@
 
             .red-font, .gray-font {
               letter-spacing: 5px;
-              font-size: 60px;
+              font-size: 48px;
             }
           }
         }

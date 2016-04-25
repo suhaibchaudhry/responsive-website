@@ -19,6 +19,7 @@
 var cssFilesToInject = [
   'styles/foundation/**/*.css',
   'styles/common-styles.css',
+  'styles/fonts.css',
   'styles/media-queries.css',
   'styles/pages/*.css',
   'styles/**/*.css'
