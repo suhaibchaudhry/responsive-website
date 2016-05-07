@@ -9,7 +9,7 @@ block body
     div(class='small-8 medium-8 large-8 columns')
       .primary-menu
         ul
-          - list = ["<a href='/consulting'>Consulting</a>", "<a href='/technology'>Technology</a>", "<a href='/creative'>Creative</a>", "<a href='/advertising'>Advertising</a>", "<a href='/insights'>Data Insights</a>"]
+          - list = ["<a href='/consulting'>Consulting</a>", "<a href='/creative'>Creative</a>", "<a href='/advertising'>Advertising</a>"]
             each item in list
               li.primary-link!= item
 
@@ -25,13 +25,9 @@ block body
                   li
                     a(href='consulting') Consulting
                   li
-                    a(href='technology') Technology
-                  li
                     a(href='creative') Creative
                   li
                     a(href='advertising') Advertising
-                  li
-                    a(href='insights') Data Insights
 
   div(class='content row')
     div(class='small-12 medium-12 large-12 column')

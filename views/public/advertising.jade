@@ -9,7 +9,7 @@ block body
     div(class='small-8 medium-8 large-8 columns')
       .primary-menu
         ul
-          - list = ["<a href='/consulting'>Consulting</a>", "<a href='/technology'>Technology</a>", "<a href='/creative'>Creative</a>", "<a href='/advertising' class='active'>Advertising</a>", "<a href='/insights'>Data Insights</a>"]
+          - list = ["<a href='/consulting'>Consulting</a>", "<a href='/creative'>Creative</a>", "<a href='/advertising' class='active'>Advertising</a>"]
             each item in list
               li.primary-link!= item
 
@@ -25,13 +25,9 @@ block body
                     li
                       a(href='consulting') Consulting
                     li
-                      a(href='technology') Technology
-                    li
                       a(href='creative') Creative
                     li
                       a(href='advertising') Advertising
-                    li
-                      a(href='insights') Data Insights
 
   div(class='content row')
     div(class='small-12 medium-12 large-12 column')
@@ -45,30 +41,37 @@ block body
             img(src='images/creative_experience-strategy.png').experience-strategy-picture
           .row-inner
             h3.menu-title
-              | Experience strategy.
+              | Strategy.
             .menu-content
-              | We evaluate existing customer interactions, performance metrics, data and capabilities to create a strategy for the new experience a company wishes to provide its customers. All customer touchpoints, from digital to in-store to phone, are considered.
+              | The most important piece in your campaign will be concocting a dynamic strategy. UI to UX uses a multitude of research tools, historical and real-time data to create the perfect plan.
         li.growth-opportunities
           .picture
             img(src='images/creative_growth-opportunities.png').growth-opportunities-picture
           .row-inner
             h3.menu-title
-              | Growth opportunities.
+              | Campaigns.
             .menu-content
-              | We partner with clients to determine where and how to compelte by rapidly imemrsing into an industry or problem space and facilitation a series of workshops to identify opportunities, generate and priorotize ideas, and prototype and test product and service concepts.
+              | Building a campaign involves a large amount of moving pieces.  UI to Ux Inc specializes in fitting all those pieces together and utilizing reactionary planning to truly create an effective campaign.
         li.asset-monetization
           .picture
             img(src='images/creative_asset-monitization.png').asset-monitization-picture
           .row-inner
             h3.menu-title
-              | Asset monetization
+              | Community Management.
             .menu-content
-              | We identify and unlock new sources of revenue related to existing and future digital assets. Our business strategists collaborate with clients to identify underlying business opportunities (e.g., new services, captive audiences, data) and determine and optimal mix of revenue models.
-
+              | Your campaign will undoubtedly generate a large amount of followers which will build into a community.  UI to UX Inc will manage and keep your community active.  Consistent and constant activity helps build an even larger community and increases follower loyalty.
+        li.crisis-response
+          .picture
+            img(src='images/creative_experience-strategy.png').experience-strategy-picture
+          .row-inner
+            h3.menu-title
+              | Crisis Response.
+            .menu-content
+              | Understanding what problems may occur and planning in advance for them is crucial in your campaign.  UI to Ux Inc prepares and places contingency plans in place to remedy any issues as they arise.
       h2.what-we-do-title
         | What else we do
       .what-we-do-block
         ul
-          - list = ["Business strategy", "User experience design", "Social", "Brands & Communication", "Creative", "Search", "Data science", "Technology", "Media", "Research", "Content"]
+          - list = ["Business strategy", "User experience design", "Social media", "Brands & Communication", "Creative", "Search", "Data science", "Technology", "Media", "Research", "Content"]
             each item in list
               li.what-we-do-item= item

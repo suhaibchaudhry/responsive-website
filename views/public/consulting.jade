@@ -9,7 +9,7 @@ block body
     div(class='small-8 medium-8 large-8 columns')
       .primary-menu
         ul
-          - list = ["<a href='/consulting' class='active'>Consulting</a>", "<a href='/technology'>Technology</a>", "<a href='/creative'>Creative</a>", "<a href='/advertising'>Advertising</a>", "<a href='/insights'>Data Insights</a>"]
+          - list = ["<a href='/consulting' class='active'>Consulting</a>", "<a href='/creative'>Creative</a>", "<a href='/advertising'>Advertising</a>"]
             each item in list
               li.primary-link!= item
 
@@ -25,13 +25,9 @@ block body
                     li
                       a(href='consulting') Consulting
                     li
-                      a(href='technology') Technology
-                    li
                       a(href='creative') Creative
                     li
                       a(href='advertising') Advertising
-                    li
-                      a(href='insights') Data Insights
 
   div(class='content row')
     div(class='small-12 medium-12 large-12 column')
@@ -45,30 +41,30 @@ block body
             img(src='images/creative_experience-strategy.png').experience-strategy-picture
           .row-inner
             h3.menu-title
-              | Experience strategy.
+              | Experience Creation.
             .menu-content
-              | We evaluate existing customer interactions, performance metrics, data and capabilities to create a strategy for the new experience a company wishes to provide its customers. All customer touchpoints, from digital to in-store to phone, are considered.
+              | Ui To Ux INC always keeps the end user in mind.  We dont just create an product but also an experience for your clients.  How things move when touched, felt and observed are all part of creating an immersible experience.
         li.growth-opportunities
           .picture
             img(src='images/creative_growth-opportunities.png').growth-opportunities-picture
           .row-inner
             h3.menu-title
-              | Growth opportunities.
+              | Growth.
             .menu-content
-              | We partner with clients to determine where and how to compelte by rapidly imemrsing into an industry or problem space and facilitation a series of workshops to identify opportunities, generate and priorotize ideas, and prototype and test product and service concepts.
+              | You never stop growing and neither should your business.  We observe trends, competition and new methodologies to help you grow your business in all sectors.
         li.asset-monetization
           .picture
             img(src='images/creative_asset-monitization.png').asset-monitization-picture
           .row-inner
             h3.menu-title
-              | Asset monetization
+              | Business and Product Innovation.
             .menu-content
-              | We identify and unlock new sources of revenue related to existing and future digital assets. Our business strategists collaborate with clients to identify underlying business opportunities (e.g., new services, captive audiences, data) and determine and optimal mix of revenue models.
+              | Change is constant and the world changes fast.   UI To UX Inc can help your product and business keep pace.  Innovation is key in making sure you are always meeting client expectations.  We use trends, testing, in-depth historical data to not only improve current products and business but also bring your ideas to life.
 
       h2.what-we-do-title
         | What else we do
       .what-we-do-block
         ul
-          - list = ["Business strategy", "User experience design", "Social", "Brands & Communication", "Creative", "Search", "Data science", "Technology", "Media", "Research", "Content"]
+          - list = ["Business strategy", "User experience design", "Social media", "Brands & Communication", "Creative", "Search", "Data science", "Technology", "Media", "Research", "Content"]
             each item in list
               li.what-we-do-item= item
