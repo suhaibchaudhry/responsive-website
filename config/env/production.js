@@ -34,5 +34,5 @@ module.exports = {
   // log: {
   //   level: "silent"
   // }
-
+  mailgun: require('mailgun-js')({apiKey: 'key-a564fe015684ff1ade47a1eef06428ef', domain: 'uitoux.com'})
 };
