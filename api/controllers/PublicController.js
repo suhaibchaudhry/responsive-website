@@ -6,10 +6,10 @@
  */
 
 module.exports = {
-	home: (req, res) => {
-		res.view(null, {
+  home: (req, res) => {
+    res.view(null, {
         bodyClass: 'homepage'
-   	});
+    });
   },
   contact: (req, res) => {
     res.view(null, {
@@ -40,5 +40,9 @@ module.exports = {
     res.view(null, {
         bodyClass: 'advertising'
     });
+  },
+  sendEmail: (req, res) => {
+    var e = req.body.emaildata;
+    res.json(req.body);
   }
 };
