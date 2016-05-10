@@ -8,6 +8,7 @@ map.doubleClickZoom.disable();
 map.scrollWheelZoom.disable();
 map.keyboard.disable();
 map.scrollWheelZoom.disable();
+if (map.tap) map.tap.disable();
 
 L.mapbox.featureLayer({
     // this feature is in the GeoJSON format: see geojson.org
