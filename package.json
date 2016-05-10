@@ -21,6 +21,7 @@
     "grunt-sync": "0.2.4",
     "include-all": "~0.1.6",
     "jade": "^1.11.0",
+    "mailgun-js": "^0.7.10",
     "rc": "1.0.1",
     "sails": "~0.12.1",
     "sails-disk": "~0.10.9"
