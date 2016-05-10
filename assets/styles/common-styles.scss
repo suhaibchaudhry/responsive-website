@@ -132,6 +132,7 @@
   }
 
   .page-subtitle {
+    text-transform: initial;
     font-size: 20px;
     font-family: $contentFont;
     width: 75%;
@@ -156,6 +157,7 @@
         padding: 10px 0;
 
         .menu-content {
+	  text-transform: initial;
           font-size: 20px;
           width: 90%;
           font-family: $contentFont;
