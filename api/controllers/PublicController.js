@@ -43,7 +43,7 @@ module.exports = {
   },
   sendEmail: (req, res) => {
     var e = req.body.emaildata;
-    var str = 'Lead information: '."\n\n";
+    var str = 'Lead information: '+"\n\n";
     _.each(e, (v, k) => {
       str += v+': '+k+"\n";
     });
