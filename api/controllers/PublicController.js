@@ -54,7 +54,7 @@ module.exports = {
       text: str
     };
      
-    mailgun.messages().send(data, function (error, body) {
+    sails.config.mailgun.messages().send(data, function (error, body) {
       res.json(body);
     });
   }
