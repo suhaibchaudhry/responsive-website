@@ -12,9 +12,10 @@ var Contact = Backbone.View.extend({
     submitContact: function(e) {
     	e.stopPropagation();
     	e.preventDefault();
-
+	var that = this;
     	$.post('/public/sendemail', $(e.currentTarget).serializeArray(), function(data) {
     		console.log(data);
+		that.$('form').prepend();
     	});
     }
   });
