@@ -51,49 +51,62 @@ block body
               | 10701 Corporate Dr | Suite 209
               br
               | Stafford, TX
-
         .right-sidebar
-          .name
-            label Name
-            input(
-              type='text'
-              name='name'
-              value size='60'
-              maxlength='128'
-              class='name-form'
-            )
-          .phone
-            label Phone
-            input(
-              type='text'
-              name='phone'
-              value size='60'
-              maxlength='128'
-              class='phone-form'
-            )
-          .email
-            label E-mail
-            input(
-              type='email'
-              name='email'
-              value size='60'
-              class='email-form'
-            )
-          .message
-            label Message
-            textarea(
-              name='message'
-              cols='60'
-              rows='5'
-              class='message-form'
-            )
-          .submit-action
-            input(
-              class='submit-button'
-              type='submit'
-              name='Submit'
-              value='Submit'
-            )
+          form(
+            data-abide
+          )
+            .name
+              label Name
+                input(
+                  type='text'
+                  name='name'
+                  value size='60'
+                  maxlength='128'
+                  class='name-form'
+                  required
+                )
+              small(
+                class='error'
+              )
+                | Please tell us your name.
+            .phone
+              label Phone
+                input(
+                  type='text'
+                  name='phone'
+                  value size='60'
+                  maxlength='128'
+                  class='phone-form'
+                )
+            .email
+              label E-mail
+                input(
+                  type='email'
+                  name='email'
+                  value size='60'
+                  class='email-form'
+                  required
+                  pattern='email'
+                )
+              small(
+                class='error'
+              )
+                | Please provide us with your e-mail.
+            .message
+              label Message
+              textarea(
+                name='message'
+                cols='60'
+                rows='5'
+                class='message-form'
+              )
+            .submit-action
+              input(
+                class='submit-button'
+                type='submit'
+                name='Submit'
+                value='Submit'
+              )
 
       .map
         div#map
