@@ -1,0 +1,4 @@
+<div data-alert class="alert-box success radius">
+  Your inquiry was successfully dispatched. A representative will contact you shortly, if you require immediate assistance please call 1 (800) 789-9736.
+  <a href="#" class="close">&times;</a>
+</div>
