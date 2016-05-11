@@ -174,13 +174,16 @@
           }
         }
 
+        .submit-action {
+          margin: 0 0 10px;
+        }
+
         input.submit-button {
           width: 100%;
           padding: 20px 0;
           background: #B90000;
           border: none;
-          color: #fff;
-        
+          color: #fff;        
         }
       }
     }

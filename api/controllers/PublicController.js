@@ -43,6 +43,19 @@ module.exports = {
   },
   sendEmail: (req, res) => {
     var e = req.body.emaildata;
-    res.json(req.body);
+    var str = 'Lead information: '."\n\n";
+    _.each(e, (v, k) => {
+      str += v+': '+k+"\n";
+    });
+    var data = {
+      from: 'UI to UX Inc. <noreply@uitoux.com>',
+      to: 'collab@uitoux.com',
+      subject: 'Visitor Inquiry - UI to UX Inc.',
+      text: str
+    };
+     
+    mailgun.messages().send(data, function (error, body) {
+      res.json(body);
+    });
   }
 };
