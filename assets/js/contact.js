@@ -14,8 +14,8 @@ var Contact = Backbone.View.extend({
     	e.preventDefault();
 	var that = this;
     	$.post('/public/sendemail', $(e.currentTarget).serializeArray(), function(data) {
-    		console.log(data);
-		that.$('form').prepend();
+    		//console.log(data);
+		that.$el.html('<div data-alert class="alert-box success radius">Your request was dispatched successfully.</div>');
     	});
     }
   });
