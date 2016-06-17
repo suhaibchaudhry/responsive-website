@@ -34,6 +34,7 @@ block body
     div(class='small-12 medium-12 large-12 column')
       .inner-content
         .content-information
+          div(id='background-animation')
           img(src="images/front_egg.png")
           .slogan
             p!= '<span class="gray-font">Data </span> <span class="red-font">Driven </span> <span class="gray-font">Media Agency</span>'
@@ -46,4 +47,3 @@ block body
             - list = ["<a href='/contact'>Contact</a>"]
               each item in list
                 li.primary-link!= item
-  div(id='background-animation')
