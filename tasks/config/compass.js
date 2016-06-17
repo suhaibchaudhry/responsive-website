@@ -22,7 +22,7 @@ module.exports = function(grunt) {
 				sassDir: 'assets/styles',
         			cssDir: '.tmp/public/styles',
 				watch: false,
-      				outputStyle: 'nested' //Set your prefered style for development here.
+      				outputStyle: 'compressed' //Set your prefered style for development here.
     			}
 		}
 	});
