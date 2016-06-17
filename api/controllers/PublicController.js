@@ -42,11 +42,16 @@ module.exports = {
     });
   },
   sendEmail: (req, res) => {
-    var e = req.body.emaildata;
+    var e = req.body;
     var str = 'Lead information: '+"\n\n";
-    _.each(e, (v, k) => {
-      str += v+': '+k+"\n";
-    });
+    //_.each(e, (v, k) => {
+    //  str += v+': '+k+"\n";
+    //});
+    str += 'Name: '+e.name+"\n";
+    str += 'Phone: '+e.phone+"\n";
+    str += 'E-mail: '+e.email+"\n";
+    str += 'Message: '+e.message+"\n";
+
     var data = {
       from: 'UI to UX Inc. <noreply@uitoux.com>',
       to: 'collab@uitoux.com,asadpakistani@gmail.com,samiwami420@gmail.com,mansoorcollege@gmail.com,pm@uitoux.com',
