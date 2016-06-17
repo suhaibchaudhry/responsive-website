@@ -24,6 +24,7 @@
     "underscore": "1.x.x",
     "backbone": "1.x.x",
     "Hover": "2.x.x",
-    "foundation": "https://github.com/zurb/bower-foundation.git"
+    "foundation": "https://github.com/zurb/bower-foundation.git",
+    "particles": "https://github.com/VincentGarreau/particles.js.git"
   }
 }
