@@ -1,3 +1,4 @@
+if($('#map').length > 0) {
 L.mapbox.accessToken = 'pk.eyJ1Ijoic3ViZXlkb28iLCJhIjoiY2ltY2poMmlkMDAwa3Uxa2t5Nm03M3MxcCJ9.GihQckRyoRaxqVLW1RbQyg';
 var map = L.mapbox.map('map', 'mapbox.streets')
     .setView([29.632599, -95.594004], 15);
@@ -33,3 +34,4 @@ L.mapbox.featureLayer({
         'marker-symbol': 'building'
     }
 }).addTo(map);
+}
