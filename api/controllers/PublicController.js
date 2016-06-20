@@ -54,7 +54,7 @@ module.exports = {
 
     var data = {
       from: 'UI to UX Inc. <noreply@uitoux.com>',
-      to: 'collab@uitoux.com,asadpakistani@gmail.com,samiwami420@gmail.com,mansoorcollege@gmail.com,pm@uitoux.com',
+      to: 'collab@uitoux.com,asad@uitoux.com,sami@uitoux.com,mansoor@uitoux.com,pm@uitoux.com',
       subject: 'Visitor Inquiry - UI to UX Inc.',
       text: str
     };
